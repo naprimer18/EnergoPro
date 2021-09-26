@@ -1,0 +1,28 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #666;
+  height: 60px;
+  opacity: 0.8;
+
+  button,a {
+    background-color: inherit;
+    border: none;
+    font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  button:hover,
+  a:hover {
+    background-color: #111;
+    cursor: pointer;
+  }
+
+  .navbar-container-links{
+    display: flex;
+  }
+}
